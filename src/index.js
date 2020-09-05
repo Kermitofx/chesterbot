@@ -5,7 +5,7 @@ require('dotenv').config()
 
 //constantes globais
 const TelegramBot = require('node-telegram-bot-api')
-const bot = new TelegramBot(process.env.TELEGRAM_API, {polling: true}) //substitua "process.env.TELEGRAM_API" pelo token de seu bot
+const bot = new TelegramBot(1178416463:AAEPd6K4UOiDAVYHrAEYsxG0qyKbdINAKmI, {polling: true}) //substitua "process.env.TELEGRAM_API" pelo token de seu bot
 const Message = require('./database').message
 
 //função axuliar
